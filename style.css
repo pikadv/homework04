@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family:
+		-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+		sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.page-wrapper {
+	max-width: 800px;
+	margin: auto;
+	padding: 10px;
+}
+
+/* header & footer ----------------------------------------------------- */
+.site-header,
+.site-footer {
+	text-align: center;
+	background-color: #002d62;
+	padding: 10px;
+	color: #ebf3fc;
+}
+
+.title {
+	margin: 0;
+	font-size: 40px;
+}
+.subtitle {
+	margin: 10px;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+/* welcome-section ----------------------------------------------------- */
+.welcome-section {
+	background-color: #ebf3fc;
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+.welcome-table {
+	margin: auto;
+	padding: 10px 20px;
+}
+.welcome-table_title {
+	text-align: left;
+	color: #002d62;
+	margin: 0;
+}
+
+td {
+	max-width: 500px;
+}
+
+td:last-of-type {
+	text-align: center;
+	padding: 0 90px;
+}
+
+/* card section ------------------------------------------------------------------ */
+.card-section_title {
+	font-size: 22px;
+	margin: 0;
+}
+
+.green-card,
+.orange-card,
+.purple-card {
+	border-radius: 10px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.green-card {
+	background-color: #eef7ee;
+	border: #2e7d32 1px solid;
+	color: #2e7d32;
+}
+.orange-card {
+	background-color: #fff5e6;
+	border: #ef6c00 1px solid;
+	color: #ef6c00;
+}
+.purple-card {
+	background-color: #f3ebf7;
+	border: #6a1b9a 1px solid;
+	color: #6a1b9a;
+}
+
+.card-section_text {
+	color: black;
+	margin: 5px 0;
+}
+
+/* about section ------------------------------------------------------------ */
+.about-section {
+	text-align: center;
+	background-color: #fffdeb;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.about-section_title {
+	color: #002d62;
+	font-size: 22px;
+	margin: 0;
+}
+
+.about-section_text {
+	color: black;
+	margin: 5px 0;
+}
+
+.quote-box {
+	background-color: #fff9e6;
+	border: #fbc02d dashed 2px;
+	border-radius: 10px;
+	padding: 20px;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.quote-box_text,
+.quote-box_author {
+	font-size: 18px;
+}
+
+.quote-box_text {
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.quote-box_author {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.about-section span {
+	font-weight: bold;
+}
+
+.unique-1 {
+	color: #6a1b9a;
+}
+
+.unique-2 {
+	color: #0288d1;
+}
+
+.unique-3 {
+	color: #ef6c00;
+}
+
+.unique-4 {
+	color: #0d47a1;
+}
+
+.unique-5 {
+	color: #2e7d32;
+}
+
+.unique-6 {
+	color: #d84315;
+}
+
+.unique-7 {
+	color: hsl(0, 0%, 10%);
+}
